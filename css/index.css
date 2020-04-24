@@ -1,0 +1,84 @@
+* {
+    margin: o;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+} 
+body {
+    background-color: #222222 ;
+    margin: 0;
+    padding: 0;
+
+}
+nav {
+    background-color: #323232;
+    display: grid;
+    width: 100%;
+    height: auto;
+}
+nav ul {
+    margin: 0;
+    list-style: none;
+    height: 15vh;
+    min-height: 10%;
+    display: grid;
+    grid-template-columns: auto;
+    grid-auto-flow: column;
+}
+nav ul li {
+   
+    display: block;
+    height: auto
+  
+
+}
+nav ul li  a {
+    text-align: center;
+    padding: 5%;
+    align-items: center;
+    font-size: x-large;
+    display: block;
+    height: auto;
+    width: 100%;
+    text-decoration: none;
+    color: white;
+}
+nav ul li  a:hover {
+    border: #222222 1px solid;
+    text-align: center;
+    align-items: center;
+    font-size: x-large;
+    display: block;
+    height: 2rem;
+    max-height: 2rem;
+    width: 100%;
+    text-decoration: none;
+    color: white;
+    color: blueviolet;
+    box-shadow: 1px 6px black;
+    
+}
+main{
+    background: transparent;
+    height: 85vh;
+    display: block;
+}
+.lista-directorio{
+    list-style: none;
+    height: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 10px;    
+   padding: 10px;
+
+}
+.card{
+    background-color: #323232;
+    display: block;
+    height: 250px;
+    width: 200px;
+    border: 1px black solid;
+
+}
+  
+
+}
