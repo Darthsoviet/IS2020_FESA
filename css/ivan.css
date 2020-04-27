@@ -6,67 +6,14 @@
 }
 
 body {
-    
+
     margin: 0;
     padding: 0;
     background-color: #222222;
     color: white
-
-
-
-}
-nav {
-    background-color: #212121;
-    
-    display: grid;
-    width: 100%;
-    height: auto;
 }
 
-nav ul {
-    margin: 0;
-    list-style: none;
-    height: 15vh;
-    min-height: 10%;
-    display: grid;
-    grid-template-columns: auto;
-    grid-auto-flow: column;
-}
 
-nav ul li {
-
-    display: block;
-    height: auto
-}
-
-nav ul li a {
-    text-align: center;
-    padding-top: 20%;
-    align-items: center;
-    font-size: x-large;
-    display: block;
-    height: 100%;
-    width: 100%;
-    text-decoration: none;
-    color: white;
-}
-
-nav ul li a:hover {
-    border: #222222 1px solid;
-    padding-top: 5%;
-
-    text-align: center;
-    align-items: center;
-    font-size: x-large;
-    display: block;
-    height: 100%;
-    width: 100%;
-    text-decoration: none;
-    color: white;
-    color: blueviolet;
-    box-shadow: 1px 6px black;
-
-}
 
 main {
     text-align: center;
@@ -75,34 +22,82 @@ main {
     display: block;
     max-width: 100vw;
     background-color: rgba(0, 0, 0, 0.1);
+    
 }
-main h1{
-    color: crimson;
+
+
+main>h1,h2 {
+    margin: 10px;
+    padding: 20px;
+    display: block;
+    font-size: 72px;
+    animation: cambio-color linear infinite 6s;
+    background: crimson;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
     font-size: xx-large;
+
 }
-main article{
+
+article>h3{
+    color: crimson;
+    font-size: larger;
+}
+
+@keyframes cambio-color {
+    30% {
+        background: blue;
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        font-size: xx-large;
+
+    }
+
+    60% {
+        background: yellow;
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        font-size: xx-large;
+
+    }
+
+    100% {
+        background: green;
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        font-size: xx-large;
+    }
+}
+
+main article {
     align-items: center;
     margin: 0 auto;
     display: block;
     background-color: #323232;
     width: 80%;
     height: auto;
-    
+    margin-top: 20px;
+    margin-bottom: 20px;
+
+
 }
-main article h2{
+
+main article h2 {
     display: block;
     background-color: #323232;
     color: darkorange;
-    
+
 }
-main article p{
+
+main article p {
     display: block;
     background-color: #323232;
     color: white;
     padding: 3%;
-    
+
 }
-main article img{
+
+main article img {
     margin: auto 0;
     display: block;
     background-color: #323232;
@@ -114,9 +109,10 @@ main article img{
     transition: all .5s;
     box-shadow: 5px 5px 5px black;
 
-    
+
 }
-main article img:hover{
+
+main article img:hover {
     display: block;
     background-color: #323232;
     color: white;
@@ -125,53 +121,61 @@ main article img:hover{
     max-height: 100%;
     transition: all .5s;
     box-shadow: 5px 5px 5px black;
+   
 
-    
+
 }
-main article p:hover{
+
+main article p:hover {
     display: block;
     background-color: #323232;
-    color: white;
     padding: 7%;
-    transition: .5s;
+    transition: all 1s;
+    color: crimson;
+    text-align: center;
 
-    
+
 }
 
-.lista-sitios{
-background-color: #191919;  
-display: block;  
+.lista-sitios {
+    background-color: #191919;
+    display: block;
 
-margin: 0 auto;
-width: 80%;
+    margin: 0 auto;
+    width: 80%;
+    padding:  30px 0;
 }
 
-.lista-sitios ol{
+.lista-sitios ol {
     width: auto;
     padding: 0;
     list-style: none;
     display: grid;
     margin: 0 auto;
-    grid-template-rows: repeat(5,auto);
+    grid-template-rows: repeat(5, auto);
     grid-template-columns: auto;
     gap: 20px;
 }
+
 .lista-sitios ol li {
     margin: 0 auto;
     width: 250px;
 
 
 }
-.lista-sitios ol li a{
+
+.lista-sitios ol li a {
     display: block;
     width: 100%;
     height: 2rem;
     color: white;
     background-color: crimson;
     text-decoration: none;
-    
+
 }
-.lista-sitios ol li img{
+
+.lista-sitios ol li img {
+    display: block;
     width: 100%;
     height: 250px;
     background-color: #323232;
