@@ -17,7 +17,7 @@ body {
 }
 nav {
     background-color: #212121;
-
+    
     display: grid;
     width: 100%;
     height: auto;
@@ -81,6 +81,7 @@ main h1{
     font-size: xx-large;
 }
 main article{
+    align-items: center;
     margin: 0 auto;
     display: block;
     background-color: #323232;
@@ -102,43 +103,76 @@ main article p{
     
 }
 main article img{
+    margin: auto 0;
+    display: block;
+    background-color: #323232;
+    color: white;
+    width: 100%;
+    height: 100%;
+    max-width: 100;
+    max-height: 100%;
+    transition: all .5s;
+    box-shadow: 5px 5px 5px black;
+
+    
+}
+main article img:hover{
     display: block;
     background-color: #323232;
     color: white;
     padding: 3%;
     max-width: 100%;
     max-height: 100%;
+    transition: all .5s;
+    box-shadow: 5px 5px 5px black;
+
     
 }
 main article p:hover{
     display: block;
     background-color: #323232;
     color: white;
-    padding: 10%;
+    padding: 7%;
+    transition: .5s;
+
     
 }
-main article>ol{
-    margin: 0 auto;
-    width: 50%;
+
+.lista-sitios{
+background-color: #191919;  
+display: block;  
+
+margin: 0 auto;
+width: 80%;
+}
+
+.lista-sitios ol{
+    width: auto;
+    padding: 0;
+    list-style: none;
     display: grid;
-
-    gap:10px;
-    height: auto;
-    grid-row: auto;
+    margin: 0 auto;
+    grid-template-rows: repeat(5,auto);
+    grid-template-columns: auto;
+    gap: 20px;
+}
+.lista-sitios ol li {
+    margin: 0 auto;
+    width: 250px;
 
 
 }
-main article>ol>li{
+.lista-sitios ol li a{
     display: block;
-    background-color: #191919;
-    height: 250px;
-}
-main article>ol>li>a{
-    display: block;
+    width: 100%;
+    height: 2rem;
+    color: white;
     background-color: crimson;
-    color: aliceblue;
-    height: 20%;
+    text-decoration: none;
+    
 }
-main article>ol>li>a>h3{
-    margin: 0;
+.lista-sitios ol li img{
+    width: 100%;
+    height: 250px;
+    background-color: #323232;
 }

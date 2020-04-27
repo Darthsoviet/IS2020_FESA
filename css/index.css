@@ -3,6 +3,7 @@
     padding: 0;
     font-family: Arial, Helvetica, sans-serif;
     box-sizing: border-box;
+    transition: .5s;
 }
 
 body {
@@ -37,9 +38,11 @@ nav ul li {
 
     display: block;
     height: auto
+    
 }
 
 nav ul li a {
+    outline: none;
     text-align: center;
     padding-top: 20%;
     align-items: center;
