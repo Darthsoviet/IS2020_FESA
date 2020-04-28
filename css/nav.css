@@ -1,49 +1,82 @@
 *{
     margin: 0;
     padding: 0;
-    font-family: Arial, Helvetica, sans-serif;
 
 }
+header{
+    height: 15vh;
+    display: block;
+    background-color: #002B7A;
+    
+}
+header .grid{
+    height: 100%;
+    display: grid;
+    grid-template-columns: 1fr 5fr 1fr;
+}
+header .grid>img{
+    
+    margin: 0 auto;
+    width: 60px;
+    height: 60px;
+    margin: 5px 5px;
+    border: none;
+    outline: none;
+    background-color: white;
+   
+}
+header .grid .slogan{
+    font-family: 'Courier New', Courier, monospace;
+    color: aliceblue;
+    text-align: center;
+    font-size: large;
+    padding: 2%;
+}
+header .grid .slogan h1{
+    font-family: 'Courier New', Courier, monospace;
+    
+}
 nav {
-
+    outline: none;
     background-color: #212121;
     display: grid;
     width: 100%;
-    height: auto;
-    box-shadow: 3px 3px 6px black;
+    height: 10vh;
+    box-shadow:  3px 6px 6px black;
 
 }
 nav * {
+    font-family: 'Courier New', Courier, monospace;
+    text-transform: capitalize;
     transition: .5s;
     text-overflow: ellipsis;
 
 
-
 }
 
 
-nav ul {
+nav>ul {
     margin: 0;
     list-style: none;
-    height: 15vh;
-    min-height: 10%;
+    height: 100%;
     display: grid;
     grid-template-columns: auto;
     grid-auto-flow: column;
     
 }
 
-nav ul li {
+nav>ul>li {
 
     display: block;
-    height: auto
+    height:auto;
+    
     
 }
 
-nav ul li a {
+nav>ul>li>a {
     outline: none;
     text-align: center;
-    padding-top: 20%;
+    padding-top: 10%;
     align-items: center;
     font-size: x-large;
     display: block;
@@ -53,19 +86,19 @@ nav ul li a {
     color: white;
 }
 
-nav ul li a:hover {
+nav>ul>li>a:hover {
     border: #222222 1px solid;
-    padding-top: 5%;
     background-color: #222222;
+    padding-top: 5%;
     text-align: center;
     align-items: center;
     font-size: x-large;
     display: block;
-    height: 100%;
+    height: 110%;
     width: 100%;
     text-decoration: none;
     color: white;
-    color: blueviolet;
+    color: #D59F0F;
     box-shadow: 6px 6px 7px black;
-
+    border-bottom: #D59F0F 2px solid;
 }

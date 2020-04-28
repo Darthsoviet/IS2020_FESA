@@ -62,7 +62,12 @@ main {
     
     background-color: #212121;
 }
-
+.card .descripcion img{
+    max-width: 100%;
+   
+    max-height: 100%;
+    
+}
 .card:hover {
     background-color: #323232;
     grid-template-rows: 1fr 4fr 1fr;
@@ -74,7 +79,8 @@ main {
 
 }
 .card *:hover {
-    color: blueviolet;
+    color:  #D59F0F;
+    
 
 
 
@@ -88,11 +94,14 @@ main {
     display: block;
     height:auto;
     width: 100%;
-    background-color:goldenrod;
+    background-color: #D59F0F;
     padding-top: 5%;
     text-decoration: none;
 
 
+}
+.card h3:hover{
+    color:  #002B7A ;
 }
 
 .card .pie {
@@ -118,38 +127,7 @@ main {
 
 
 
-
-
-
-@media only screen and (max-width:300px) {
-    .lista-directorio {
-        list-style: none;
-        height: 100%;
-        display: grid;
-        grid-template-columns: 1fr 1fr;
-
-        gap: 10px;
-        padding: 10px;
-
-    }
-
-}
-
-@media only screen and (min-width:600px) {
-    .lista-directorio {
-        list-style: none;
-        height: 100%;
-        display: grid;
-        grid-template-columns: 1fr 1fr 1fr;
-
-        gap: 10px;
-        padding: 10px;
-
-    }
-
-}
-
-@media only screen and (min-width:850px) {
+@media only screen and (min-width:1200px) {
     .lista-directorio {
         list-style: none;
         height: 100%;
@@ -162,3 +140,33 @@ main {
     }
 
 }
+
+
+@media only screen and (max-width:1100px) {
+    .lista-directorio {
+        list-style: none;
+        height: 100%;
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr ;
+
+        gap: 10px;
+        padding: 10px;
+
+    }
+
+}
+
+@media only screen and (max-width:700px) {
+    .lista-directorio {
+        list-style: none;
+        height: 100%;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 10px;
+        padding: 10px;
+
+    }
+
+}
+
+
