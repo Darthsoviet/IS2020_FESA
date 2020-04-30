@@ -1,0 +1,140 @@
+body{
+  margin: 0;
+  font-family: fantasy;
+  /*background:linear-gradient(rgba(139,0,139,10),rgba(0,255,255,.9));*/
+  background:url(../assets/img/fondo4.jpg);
+    background-size: cover;
+
+}
+
+header{
+  background:url(../assets/img/saint_seiya.jpg);
+  height: 75vh;
+  background-size: cover;
+  padding-top: 10px;
+
+}
+
+
+
+#contenedor-titulo-flex{
+  display: flex;
+  /*Siempre deben de ir el justify-content con el display:flex*/
+  justify-content: center;
+  /*espaciado externo del elemento separar el elemento de otros elmentos a su alrededor*/
+  margin:10vh 0;
+  /*Lo de arriba es igual a estas cuatro lineas de codigo
+  margin-top:18vh;
+  margin-right:0px;
+  margin-bottom:18vh;
+  margin-left:0px;
+*/
+  max-width: 1580px;
+  width: 100%;
+  margin-bottom: 100px;
+
+}
+
+/*Estilo para h1*/
+h1{
+  font-size: 60px;
+  color:#000;
+
+}
+
+h2{
+  font-size: 40px;
+  color: #000;
+  /*alinea el texto al centro*/
+  text-align: center;
+
+}
+
+.contenedor-titulo{
+  text-align: center;
+  margin:215px;
+  vertical-align: text-bottom;
+  font-family: 'Leckerli One', cursive;
+}
+
+h3{
+text-align: center;
+font-size: 55px;
+font-weight: normal;
+
+}
+
+#uno .contenedor{
+  margin:0;
+  /*background:linear-gradient(rgba(197, 10, 10,10),rgba(6, 32, 97,.9));*/
+
+
+}
+
+#uno h3{
+  font-family:'Fredericka the Great', cursive;
+  color:#FCD9B5;
+}
+
+#uno .contenedor-pelicula{
+  display: flex;
+  justify-content: space-around;
+}
+
+#uno .texto{
+  width: 40%;
+  font-size: 18px;
+  color: #FCD9B5;
+  font-family:'Fredericka the Great', cursive;
+
+}
+
+#dos h3{
+  font-family:'Pacifico', cursive;
+}
+
+#dos .contenedor{
+  background:linear-gradient(rgba(0,255,255,.9),rgba(139,0,139,10));
+}
+
+#dos .contenedor-libro{
+  display: flex;
+  justify-content: space-around;
+}
+
+#dos .texto{
+  width: 45%;
+  font-size: 25px;
+  font-family: 'Dancing Script',cursive;
+}
+
+#tres h3{
+  color:#fff;
+  font-family: 'Monoton',cursive;
+  font-size: 50px;
+}
+
+#tres h4{
+  text-align: center;
+  color:#fff;
+  font-size:20px;
+  font-family: sans-serif;
+
+}
+
+#tres .contenedor-sitios{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+#aioros {
+  position: fixed;
+  top:75%;
+}
+
+#saga {
+  position: fixed;
+  top:76%;
+  right: 1%;
+}

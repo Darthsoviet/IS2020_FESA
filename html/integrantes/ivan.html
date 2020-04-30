@@ -7,10 +7,18 @@
     <title>Ivan</title>
     <link rel="stylesheet" href="../../css/ivan.css">
     <link rel="stylesheet" href="../../css/nav.css">
+    <script src="../../js/ivan.js"></script>
 
 </head>
 
 <body>
+    <div class="modal" id="modal">
+        <div class="ventana">
+            <p>seguro que quiere ir a <span></span>?</p>
+            <button onclick="aceptar();" class="aceptar">si</button>
+            <button onclick="cancelar();" class="cancelar">cancelar</button>
+        </div>
+    </div>
     <header>
         <div class="grid">
             <img src="../../assets/img/logo.png" alt="">
@@ -24,10 +32,8 @@
     <!--TODO agregar links-->
     <nav>
         <ul>
-            <li>
-                <a href="./ivan.html">Ivan</a>
-            </li>
-            <li>
+            <li ">
+                <a  href=" ./ivan.html">Ivan </a> </li> <li>
                 <a href="./rodrigo.html">Rodrigo</a>
             </li>
             <li>
@@ -35,10 +41,10 @@
                 <a href="./vania.html">Vania</a>
             </li>
             <li>
-                <a href="">Juan</a>
+                <a href="./juan.html">Juan</a>
             </li>
             <li>
-                <a href="">Karen</a>
+                <a href="karen.html">Karen</a>
             </li>
             <li>
                 <a href="andres.html">Andres</a>
@@ -107,21 +113,21 @@
             <div class="lista-sitios">
                 <ol>
                     <li>
-                        <a target="_blank" href="http://www.youtube.com">
+                        <a onclick="clicked(this);" target="_blank" href="http://www.youtube.com">
                             <h3>Youtube</h3>
 
                             <img src="../../assets/img/youtube.jpg" alt="youtube">
                         </a>
                     </li>
                     <li>
-                        <a target="_blank" href="http://www.facebook.com">
+                        <a onclick="clicked(this);"  target="_blank" href="http://www.facebook.com">
                             <h3>Facebook</h3>
 
                             <img src="../../assets/img/facebook.png" alt="">
                         </a>
                     </li>
                     <li>
-                        <a target="_blank" href="http://www.netflix.com">
+                        <a onclick="clicked(this);"  target="_blank" href="http://www.netflix.com">
                             <h3>Netflix</h3>
 
                             <img src="../../assets/img/netflix.png" alt="">
@@ -129,7 +135,7 @@
 
                     </li>
                     <li>
-                        <a target="_blank" href="http://www.stackoverflow.com">
+                        <a onclick="clicked(this);"  target="_blank" href="http://www.stackoverflow.com">
                             <h3>Stackoverflow</h3>
 
                             <img src="../../assets/img/stackoverflow.png" alt="">
@@ -137,7 +143,7 @@
 
                     </li>
                     <li>
-                        <a target="_blank" href="http://www.agar.io">
+                        <a onclick="clicked(this);"  target="_blank" href="http://www.agar.io">
                             <h3>Agar.io</h3>
 
                             <img src="../../assets/img/agario.png" alt="">

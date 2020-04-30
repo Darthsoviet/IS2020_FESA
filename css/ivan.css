@@ -26,54 +26,59 @@ main {
 }
 
 
-main
-h2 {
-    margin: 0;
-    padding: 20px;
-    display: block;
-    font-size: 72px;
-    animation: cambio-color linear infinite 6s;
-    background: crimson;
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    font-size: 5rem;
 
-}
-main h1{
+
+main h1 {
     display: block;
     padding: 2rem;
     font-size: 3rem;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     text-transform: capitalize;
 }
+
 article>h3 {
     color: crimson;
     font-size: xx-large;
     font-family: monospace;
 }
+main h2 {
+    margin: 0;
+    padding: 20px;
+    display: block;
+    font-size: 5rem;
+    color: yellow;
+}
+
+    /*
+    animation: cambio-color forwards infinite 6s;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+
+}
 
 @keyframes cambio-color {
     30% {
-        background: blue;
+        background: yellow;
         -webkit-background-clip: text;
         -webkit-text-fill-color: transparent;
 
     }
 
     60% {
-        background: yellow;
+        background-color: goldenrod;
         -webkit-background-clip: text;
         -webkit-text-fill-color: transparent;
-      
+
 
     }
 
     100% {
-        background: green;
+        background: yellow;
         -webkit-background-clip: text;
         -webkit-text-fill-color: transparent;
     }
 }
+**/
 
 main article {
     align-items: center;
@@ -93,7 +98,6 @@ main article {
 main article h2 {
     display: block;
     background-color: #323232;
-    color: darkorange;
 
 }
 
@@ -106,7 +110,7 @@ main article p {
 }
 
 main article>img {
-    margin:  0 auto;
+    margin: 0 auto;
     display: block;
     background-color: #323232;
     color: white;
@@ -119,7 +123,7 @@ main article>img {
     box-shadow: 5px 5px 5px black;
     border-radius: 20px;
     background-color: #191919;
-   
+
 
 }
 
@@ -165,14 +169,14 @@ main article p:hover {
     grid-template-rows: repeat(5, auto);
     grid-template-columns: auto;
     gap: 40px;
-    
+
 }
 
 .lista-sitios ol li {
     margin: 0 auto;
     width: 250px;
     height: auto;
-    box-shadow:  5px 5px 5px black;
+    box-shadow: 5px 5px 5px black;
 
 }
 
@@ -180,7 +184,7 @@ main article p:hover {
     margin: 0 auto;
     width: 250px;
     height: auto;
-    box-shadow:  10px 20px 5px black;
+    box-shadow: 10px 20px 5px black;
     color: chartreuse;
     text-decoration: none;
 
@@ -198,8 +202,9 @@ main article p:hover {
     text-decoration: none;
 
 }
+
 .lista-sitios ol li a {
-   
+
     text-decoration: none;
 
 }
@@ -212,3 +217,55 @@ main article p:hover {
     background-color: #323232;
 }
 
+.modal {
+    display: none;
+
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.7);
+    align-items: center;
+    z-index: 1;
+    position: fixed;
+
+}
+
+.ventana {
+    height: 35%;
+    display: block;
+    z-index: 2;
+    margin: 15% auto; 
+    border: 1px solid #D59F0F;
+    border-radius: 5px;
+    width: 50%;
+    background: #222222;
+    padding: 12px;
+}
+.ventana p{
+    text-align: center;
+    display: block;
+    margin: 5%;
+}
+.ventana button{
+    background: transparent;
+    outline: none;
+    width: 50%;
+    display: block;
+    margin: 6px auto;
+    color: #D59F0F;
+    border: #D59F0F 1px solid;
+    border-radius: 20px;
+    transition: .4s;
+}
+.ventana .aceptar:hover{
+    background-color: #D59F0F;
+    color: white;
+}
+.ventana .cancelar {
+
+    color: crimson;
+    border: crimson 1px solid;
+}
+.ventana .cancelar:hover{
+    background-color: crimson;
+    color: white;
+}
