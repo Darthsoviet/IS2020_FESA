@@ -233,7 +233,7 @@ main article p:hover {
     height: 35%;
     display: block;
     z-index: 2;
-    margin: 25% auto; 
+    margin: 15% auto; 
     border: 1px solid #D59F0F;
     border-radius: 5px;
     width: 50%;
@@ -243,7 +243,7 @@ main article p:hover {
 .ventana p{
     text-align: center;
     display: block;
-    margin: 15%;
+    margin: 5%;
 }
 .ventana button{
     background: transparent;
