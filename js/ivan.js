@@ -12,11 +12,11 @@ window.onload = () => {
 }
 
 function clicked(elemento) {
+   
     url = elemento.getAttribute("href");
     let modal = document.getElementById("modal");
     let span = modal.getElementsByTagName("p")[0].getElementsByTagName("span")[0];
     span.innerHTML = url;
-
     modal.style.display = "block";
 }
 

@@ -136,11 +136,11 @@ nav>ul>li>a:hover {
         grid-auto-flow: column;
         grid-template-rows: 1fr 1fr;
     }
-    header .grid .slogan {
+    header .grid .slogan h1{
         font-family: 'Courier New', Courier, monospace;
         color: aliceblue;
         text-align: center;
-        font-size:10px;
+        font-size:20px;
         padding: 2%;
         overflow: hidden;
     }
@@ -155,7 +155,7 @@ nav>ul>li>a:hover {
     nav>ul>li>a {
         outline: none;
         text-align: center;
-        padding-top: 10%;
+        padding-top: 5%;
         align-items: center;
         font-size: small;
         display: block;
@@ -164,6 +164,7 @@ nav>ul>li>a:hover {
         text-decoration: none;
         color: white;
         word-wrap: break-word;
+        
         
     }
     header{
