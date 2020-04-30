@@ -1,0 +1,65 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    color: black;
+    background-image: url(../assets/img/fondovania.jpg);
+    font-family: Franklin Gothic, sans-serif;
+    font-size: 1.6rem;
+    line-height: 2;
+}
+
+
+main {
+    text-align: center;
+    min-height: 85vh;
+    height: auto;
+    display: block;
+    max-width: 100vw;
+    background-color: rgba(0, 0, 0, 0.1);
+
+}
+
+h1 {
+    font-size: 3rem;
+    color:white;
+    margin-bottom: 3rem;
+}
+
+h2 {
+    font-size: 2.5rem;
+    color: #00507B;
+    margin-top: 2rem;
+}
+
+p{
+  font-size: 1rem;
+}
+
+img{
+    border-color: black;
+}
+
+article{
+  align-items: center;
+  display: flex;
+  background-color: white;
+  max-width: 60%;
+  height: auto;
+  margin: 1rem auto;
+  padding: 3rem 3rem;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.lista-sitios {
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: nowrap;
+    background-color: white;
+    max-width: 60%;
+    height: auto;
+
+}
