@@ -1,38 +1,22 @@
 body{
   margin: 0;
-  font-family: fantasy;
-  /*background:linear-gradient(rgba(139,0,139,10),rgba(0,255,255,.9));*/
-  background:url(../assets/img/fondo4.jpg);
-    background-size: cover;
+  background-image:url(../assets/img/fondo4.jpg);
+  background-size:auto;
 
 }
-
-header{
-  background:url(../assets/img/saint_seiya.jpg);
-  height: 75vh;
-  background-size: cover;
-  padding-top: 10px;
-
-}
-
-
 
 #contenedor-titulo-flex{
   display: flex;
-  /*Siempre deben de ir el justify-content con el display:flex*/
   justify-content: center;
-  /*espaciado externo del elemento separar el elemento de otros elmentos a su alrededor*/
   margin:10vh 0;
-  /*Lo de arriba es igual a estas cuatro lineas de codigo
-  margin-top:18vh;
-  margin-right:0px;
-  margin-bottom:18vh;
-  margin-left:0px;
-*/
   max-width: 1580px;
   width: 100%;
   margin-bottom: 100px;
 
+}
+
+header h1{
+  font-size: 45px;
 }
 
 /*Estilo para h1*/
@@ -45,17 +29,10 @@ h1{
 h2{
   font-size: 40px;
   color: #000;
-  /*alinea el texto al centro*/
   text-align: center;
 
 }
 
-.contenedor-titulo{
-  text-align: center;
-  margin:215px;
-  vertical-align: text-bottom;
-  font-family: 'Leckerli One', cursive;
-}
 
 h3{
 text-align: center;
@@ -66,14 +43,12 @@ font-weight: normal;
 
 #uno .contenedor{
   margin:0;
-  /*background:linear-gradient(rgba(197, 10, 10,10),rgba(6, 32, 97,.9));*/
-
-
 }
 
 #uno h3{
   font-family:'Fredericka the Great', cursive;
   color:#FCD9B5;
+  margin: 25px;
 }
 
 #uno .contenedor-pelicula{
@@ -82,11 +57,14 @@ font-weight: normal;
 }
 
 #uno .texto{
-  width: 40%;
+  width: 42%;
   font-size: 18px;
   color: #FCD9B5;
-  font-family:'Fredericka the Great', cursive;
 
+}
+
+#uno p {
+  font-family:'Fredericka the Great', cursive;
 }
 
 #dos h3{
@@ -103,9 +81,13 @@ font-weight: normal;
 }
 
 #dos .texto{
-  width: 45%;
+  width: 48%;
   font-size: 25px;
-  font-family: 'Dancing Script',cursive;
+
+}
+
+#dos p {
+  font-family: 'Sacramento', cursive;
 }
 
 #tres h3{
