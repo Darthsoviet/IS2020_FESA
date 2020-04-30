@@ -11,7 +11,7 @@ window.onload = () => {
     }
 }
 
-function clicked(elemento) {
+function clicked(elemento) {git 
     url = elemento.getAttribute("href");
     let modal = document.getElementById("modal");
     let span = modal.getElementsByTagName("p")[0].getElementsByTagName("span")[0];
