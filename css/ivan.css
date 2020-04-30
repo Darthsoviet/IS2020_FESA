@@ -156,25 +156,33 @@ main article p:hover {
     display: block;
     border-radius: 20px;
     margin: 0 auto;
-    width: 80%;
+    width: 95%;
+    padding: 30px 0;
+}
+.lista-sitio:hover {
+    background-color: #222222;
+    display: block;
+    border-radius: 20px;
+    margin: 0 auto;
+    
     padding: 30px 0;
 }
 
+
 .lista-sitios ol {
     width: auto;
-    padding: 0;
+    padding: 20px;
     list-style: none;
     display: grid;
     margin: 0 auto;
-    grid-template-rows: repeat(5, auto);
-    grid-template-columns: auto;
-    gap: 40px;
+    grid-template-columns: repeat(5, auto);
+    gap: 10px;
 
 }
 
 .lista-sitios ol li {
     margin: 0 auto;
-    width: 250px;
+    width: auto;
     height: auto;
     box-shadow: 5px 5px 5px black;
 
@@ -182,7 +190,7 @@ main article p:hover {
 
 .lista-sitios ol li:hover {
     margin: 0 auto;
-    width: 250px;
+    width: auto;
     height: auto;
     box-shadow: 10px 20px 5px black;
     color: chartreuse;
@@ -212,8 +220,8 @@ main article p:hover {
 .lista-sitios ol li img {
 
     display: block;
-    width: 100%;
-    height: 250px;
+    width: 150px;
+    height: 150px;
     background-color: #323232;
 }
 
@@ -270,6 +278,12 @@ main article p:hover {
     background-color: crimson;
     color: white;
 }
+@media only screen and (max-width:1200px){
+    .lista-sitios ol{
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-rows: 1fr 1fr;
+    }
+}
 @media only screen and (max-width:800px){
     main h1 {
         display: block;
@@ -306,14 +320,14 @@ main article p:hover {
         margin: 0 auto;
         grid-template-rows: repeat(5, auto);
         grid-template-columns: auto;
-        gap: 40px;
+        
     
     }
     
     .lista-sitios ol li {
         margin: 0 auto;
-        width: 100px;
-        height: 100px;
+        width: auto;
+        height: auto;
         box-shadow: 5px 5px 5px black;
     
     }
@@ -350,8 +364,8 @@ main article p:hover {
     .lista-sitios ol li img {
     
         display: block;
-        width: 100px;
-        height: 100px;
+        width: 150px;
+        height: 150px;
         background-color: #323232;
     }
     
@@ -371,7 +385,7 @@ main article p:hover {
         height: 35%;
         display: block;
         z-index: 5;
-        margin: 15% auto; 
+        margin: 40% auto; 
         border: 1px solid #D59F0F;
         border-radius: 5px;
         width: 50%;
@@ -379,14 +393,15 @@ main article p:hover {
         padding: 12px;
     }
     .ventana p{
+        font-size: xx-small;
         text-align: center;
         display: block;
-        margin: 5%;
+        margin: 30% 5%;
     }
     .ventana button{
         background: transparent;
         outline: none;
-        width: 40%;
+        width: 60%;
         display: block;
         margin: 6px auto;
         color: #D59F0F;
