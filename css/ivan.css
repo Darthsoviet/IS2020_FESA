@@ -248,13 +248,14 @@ main article p:hover {
 .ventana button{
     background: transparent;
     outline: none;
-    width: 50%;
+    width: 40%;
     display: block;
     margin: 6px auto;
     color: #D59F0F;
     border: #D59F0F 1px solid;
     border-radius: 20px;
     transition: .4s;
+    height: 2rem;
 }
 .ventana .aceptar:hover{
     background-color: #D59F0F;
