@@ -270,3 +270,142 @@ main article p:hover {
     background-color: crimson;
     color: white;
 }
+@media only screen and (max-width:800px){
+    main h1 {
+        display: block;
+        padding: 1rem;
+        font-size: 2rem;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        text-transform: capitalize;
+    }
+    main article{
+        padding: 1rem;
+    }
+    main h2 {
+        margin: 0;
+        padding: 20px;
+        display: block;
+        font-size: 2rem;
+        color: yellow;
+    }
+
+    .lista-sitios {
+        background-color: #222222;
+        display: block;
+        border-radius: 20px;
+        margin: 0 auto;
+        width: 100%;
+        padding: 20px 0;
+    }
+    
+    .lista-sitios ol {
+        width: auto;
+        padding: 0;
+        list-style: none;
+        display: grid;
+        margin: 0 auto;
+        grid-template-rows: repeat(5, auto);
+        grid-template-columns: auto;
+        gap: 40px;
+    
+    }
+    
+    .lista-sitios ol li {
+        margin: 0 auto;
+        width: 100px;
+        height: 100px;
+        box-shadow: 5px 5px 5px black;
+    
+    }
+    
+    .lista-sitios ol li:hover {
+        margin: 0 auto;
+        width: 100px;
+        height: 100px;
+        box-shadow: 5px 5px 5px black;
+       
+    
+    
+    
+    }
+    
+    
+    .lista-sitios ol li h3 {
+        font-size: small;
+        display: block;
+        width: 100%;
+        height: auto;
+        color: white;
+        background-color: crimson;
+        text-decoration: none;
+    
+    }
+    
+    .lista-sitios ol li a {
+    
+        text-decoration: none;
+    
+    }
+    
+    .lista-sitios ol li img {
+    
+        display: block;
+        width: 100px;
+        height: 100px;
+        background-color: #323232;
+    }
+    
+    .modal {
+        display: none;
+    
+        width: 100%;
+        height: 100%;
+        background-color: rgba(0, 0, 0, 0.7);
+        align-items: center;
+        z-index: 1;
+        position: fixed;
+    
+    }
+    
+    .ventana {
+        height: 35%;
+        display: block;
+        z-index: 5;
+        margin: 15% auto; 
+        border: 1px solid #D59F0F;
+        border-radius: 5px;
+        width: 50%;
+        background: #222222;
+        padding: 12px;
+    }
+    .ventana p{
+        text-align: center;
+        display: block;
+        margin: 5%;
+    }
+    .ventana button{
+        background: transparent;
+        outline: none;
+        width: 40%;
+        display: block;
+        margin: 6px auto;
+        color: #D59F0F;
+        border: #D59F0F 1px solid;
+        border-radius: 20px;
+        transition: .4s;
+        height: 2rem;
+    }
+    .ventana .aceptar:hover{
+        background-color: #D59F0F;
+        color: white;
+    }
+    .ventana .cancelar {
+    
+        color: crimson;
+        border: crimson 1px solid;
+    }
+    .ventana .cancelar:hover{
+        background-color: crimson;
+        color: white;
+    }
+}

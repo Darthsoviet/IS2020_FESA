@@ -28,6 +28,7 @@ main {
 }
 
 .lista-directorio {
+    max-width: 100vw;
     margin: 0 auto;
     list-style: none;
     height: 100%;
@@ -119,16 +120,6 @@ main {
 }
 
 
-
-
-
-
-
-
-
-
-
-
 @media only screen and (min-width:1200px) {
     .lista-directorio {
         list-style: none;
@@ -139,6 +130,9 @@ main {
         gap: 10px;
         padding: 10px;
 
+    }
+    .lista-directorio li{
+        margin: 0 auto;
     }
 
 }
@@ -155,18 +149,42 @@ main {
         padding: 10px;
 
     }
+    .lista-directorio li{
+        margin: 0 auto;
+    }
 
 }
+@media only screen and (max-width:900px) {
+    .lista-directorio {
+        list-style: none;
+        height: 100%;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 30px;
+        padding: 10px;
+
+
+    }
+    .lista-directorio li{
+        margin: 0 auto;
+    }
+
+}
+
 
 @media only screen and (max-width:700px) {
     .lista-directorio {
         list-style: none;
         height: 100%;
         display: grid;
-        grid-template-columns: 1fr 1fr;
-        gap: 10px;
+        grid-template-columns: 1fr ;
+        gap: 30px;
         padding: 10px;
 
+
+    }
+    .lista-directorio li{
+        margin: 0 auto;
     }
 
 }
