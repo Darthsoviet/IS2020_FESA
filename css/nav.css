@@ -32,14 +32,14 @@ header .grid>img {
 }
 
 header .grid .slogan {
-    font-family: 'Courier New', Courier, monospace;
-    color: aliceblue;
-    text-align: center;
-    font-size: large;
+   
     padding: 2%;
 }
 
 header .grid .slogan h1 {
+    color: aliceblue;
+    text-align: center;
+    font-size: xx-large;
     font-family: 'Courier New', Courier, monospace;
 
 }
