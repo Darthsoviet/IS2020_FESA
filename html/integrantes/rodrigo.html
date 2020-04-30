@@ -1,88 +1,210 @@
 <!DOCTYPE html>
 <head>
   <meta charset="utf-8">
-
   <meta name  = "author" content="Rollo">
-
   <title>Rodrigo</title>
+  <link href="https://fonts.googleapis.com/css2?family=Baloo+Bhaina+2:wght@500&display=swap" rel="stylesheet">
 
-  <link rel="icon" href="img/icono.png">
+  <style>
+    *{
+      margin:0;
+      padding:0;
+      list-style:none;
+      font-family: 'Baloo Bhaina 2', cursive;
+    }
+
+
+
+        body {
+          background:
+        linear-gradient(135deg, #708090 22px, #d9ecff 22px, #d9ecff 24px, transparent 24px, transparent 67px, #d9ecff 67px, #d9ecff 69px, transparent 69px),
+        linear-gradient(225deg, #708090 22px, #d9ecff 22px, #d9ecff 24px, transparent 24px, transparent 67px, #d9ecff 67px, #d9ecff 69px, transparent 69px)0 64px;
+        background-color:#708090;
+        background-size: 64px 128px;
+        }
+
+        header{
+          position: relative;
+          margin: 20px auto;
+          width: 1000px;
+          height: 100px;
+          background: rgba(38, 147, 164, 0.44);
+        }
+
+    #nombre{
+      position: absolute;
+      top:40px;
+      left: 30px;
+      width: 1000px;
+      height: 60px;
+
+      font-family: 'Baloo Bhaina 2', cursive;
+      font-size: 50px;
+      text-align: center;
+      line-height: 30px;
+      color: white;
+    }
+
+    #sec1{
+        position: relative;
+        margin:auto;
+        width:1000px;
+        height:453px;
+        background: rgba(38, 147, 164, 0.44);
+      }
+
+      #tit1{
+        color: white;
+      }
+      #art1{
+        position: absolute;
+        top: 0px;
+        left: 300px;
+        width: 700px;
+        height: 453px;
+        font-size: 17px;
+
+
+      }
+
+      aside#izq{
+        position: absolute;
+        margin: auto;
+        width: 300px;
+        height: 453px;
+
+      }
+
+      #sec2{
+          position: relative;
+          margin: auto;
+          top: 40px;
+          width:1000px;
+          height:453px;
+          background: rgba(38, 147, 164, 0.44);
+        }
+
+      #tit2{
+        color: white;
+      }
+
+      #art2{
+        position: absolute;
+        top: 0px;
+        right: 300px;
+        width: 700px;
+        height: 453px;
+        font-size: 18px;
+      }
+
+      aside#der{
+        position: absolute;
+        top: 0px;
+        right: 0px;
+        width: 300px;
+        height: 453px;
+
+      }
+
+      nav{
+        position: relative;
+        margin: auto;
+        top: 70px;
+        width: 1000px;
+        height: 350px;
+        background: rgba(38, 147, 164, 0.44);
+      }
+
+      .sitios{
+        float: left;
+        width: 196px;
+        margin: 0px 2px;
+        height: 80px;
+
+
+        font-family: 'Baloo Bhaina 2', cursive;
+        color:white;
+        text-align:center;
+        line-height:48px;
+      }
+
+
+  </style>
+
 </head>
 
 <body>
 
-  <center> <h1> Rodrigo Raygadas Baez </h1>
+    <header>
+      <div id="nombre">  Rodrigo Raygadas Baez</div>
+    </header>
 
-    <h2>Libro favorito</h2>
-    <h3><b>After Dark</b> Haruki Murakami</h3>
-    <p align= "justify">
+    <section id="sec1">
+    <aside id="izq" ><img src="../../assets/img/afterDArk.jpg" width="300"   height="453px"></aside>
+    <article id="art1">
+      <h2 id="tit1" align="right">Libro favorito</h2>
+      <h3 align="right"><b>After Dark</b> Haruki Murakami</h3>
+      <p align= "right">
+        El nombre del libro es por la canción "Five Spot After Dark" de Curtis Fuller. Narra la historia de Mari Asai, chica de 19 años que se encuentra cenando en una restaurante y leyendo un libro grueso.
+        En dicho restaurante conoce a Takashi, un trombonista de una banda de Jazz, el cual conoce porque había estado enamorado en el instituto de su hermana, Eri Asai, quien es modelo de revistas y ha
+        tenido una vida colmada de éxitos, lo que ha sumido a su hermana en sus estudios universitarios de ligüística china para destacar y llamar la atención de sus padres. Gracias a Takahashi,
+        Mari conoce a Kaoru —empleada de un love-ho (hoteles de citas japoneses)—cuando esta acude al restaurante para ver si puede hacerle de intérprete con una chica china que ha
+        sufrido la agresión de un cliente.Y así, poco a poco la trama se va enredando mientras vamos conociendo mejor a los personajes.
+      </p>
+    </article>
+    <aside id="der"></aside>
+
+  </section>
 
 
-
-      El nombre del libro es por la canción "Five Spot After Dark" de Curtis Fuller. Narra la historia de Mari Asai, chica de 19 años que se encuentra cenando en una restaurante y leyendo un libro grueso.
-      <br>
-      En dicho restaurante conoce a Takashi, un trombonista de una banda de Jazz, el cual conoce porque había estado enamorado en el instituto de su hermana, Eri Asai, quien es modelo de revistas y ha
-      <br>
-      tenido una vida colmada de éxitos, lo que ha sumido a su hermana en sus estudios universitarios de ligüística china para destacar y llamar la atención de sus padres.
-      <br>
-      Gracias a Takahashi, Mari conoce a Kaoru —empleada de un love-ho (hoteles de citas japoneses)—cuando esta acude al restaurante para ver si puede hacerle de intérprete con una chica china que ha
-      <br>
-      sufrido la agresión de un cliente.Y así, poco a poco la trama se va enredando mientras vamos conociendo mejor a los personajes.
-
-      <figure>
-        <img src="../../assets/img/afterDArk.jpg" alt="afterDArk">
-
-      </figure>
-
+  <section id="sec2">
+  <aside id="der" ><img src="../../assets/img/taxiDriver.jpg" width="300"   height="453px"></aside>
+  <article id="art2">
+    <h2 id="tit2" align="left">Pelicula favorita</h2>
+    <h3 align="left"><b>Taxi driver - Martin Scorserse</b></h3>
+    <p align= "left">
+          Taxi Driver narra la historia de Travis Bickle, un ex-marine que se convierte en taxista al no encontrar como ocupar su tiempo libre,
+           recorriendo las calles de Nueva York en su vida de taxista conoce a Besty, una una bella mujer que trabaja muy de cerca con el senador Charles Pallantine, aspirante a presidente.
+          Betsy le concede una cita para ir al cine pero al descubrir la aficción que Travis tiene por la pornografía, decide no volver a verle.
+          Despues de esto conoce a Iris, una prostituta explotada por su esposo y proxeneta, a la que intentará convencer para que abandone esa vida.
     </p>
-    <br>
-    <h2>Pelicula Favorita</h2>
-    <br>
-    <h3>Taxi Driver</h3>
-    <br>
-    Taxi Driver narra la historia de Travis Bickle, un ex-marine que se convierte en taxista al no encontrar como ocupar su tiempo libre, recorriendo las calles de Nueva York
-    <br>
-    En su vida de taxista conoce a Besty, una una bella mujer que trabaja muy de cerca con el senador Charles Pallantine, aspirante a presidente.
-    <br>
-    Betsy le concede una cita para ir al cine pero al descubrir la aficción que Travis tiene por la pornografía, decide no volver a verle.
-    <br>
-    Despues de esto conoce a Iris, una prostituta explotada por su esposo y proxeneta, a la que intentará convencer para que abandone esa vida.
+  </article>
+  <aside id="der"></aside>
+
+</section>
 
 
-
-
-    <figure>
-    <img src="../../assets/img/taxiDriver.jpg" alt="taxiDriver">
-    </figure>
-
-    <h2>Sitios Favoritos</h2>
-
-    <div class="lista-sitios">
-        <ol>
-            <li>
-                <img src="../../assets/img/feis.png" alt="" height="200" width="200">
-                  <a href="https://www.Facebook.com"><h3>Facebook</h3> </a>
-
+    <nav>
+        <ul>
+          <br>
+          <h2 align="center">Sitios Favoritos</h2>
+          <br>
+            <li class="sitios">
+              <img src="../../assets/img/enlace1_gus.png" alt="" height="160" width="120">
+                <a href="https://www.Facebook.com"><h3>Facebook</h3> </a>
             </li>
-            <li>
-              <img src="../../assets/img/youyoutube.png" alt="" height="200" width="200" >
+
+            <li class="sitios">
+              <img src="../../assets/img/youyoutube.png" alt="" height="160" width="120" >
                 <a href="https://www.youtube.com"><h3>YouTube</h3> </a>
-                </li>
-            <li>
-              <img src="../../assets/img/spotify.png" alt="" height="200" width="250">
+            </li>
+
+            <li class="sitios">
+              <img src="../../assets/img/spotify.png" alt="" height="140" width="120">
                 <a href="https://www.spotify.com"><h3>Spotify</h3> </a>
             </li>
-            <li>
-              <img src="../../assets/img/udemy.png" alt="" height="300" width="300">
+
+            <li class="sitios">
+              <img src="../../assets/img/udemy.png" alt="" height="160" width="150">
                 <a href="https://www.udemy.com"><h3>Udemy</h3> </a>
             </li>
-            <li>
-              <img src="../../assets/img/radioGarden.png" alt="" height="200" width="200">
-                <a href="https://www.radio.garden"><h3>Radio Garden</h3> </a>
 
+            <li class="sitios">
+              <img src="../../assets/img/radioGarden.png" alt="" height="160" width="120">
+                <a href="https://www.radio.garden"><h3>Radio Garden</h3> </a>
             </li>
 
-        </ol>
-    </div>
+        </ul>
+    </nav>
 
 </body>
