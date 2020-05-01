@@ -10,5 +10,4 @@
 * Del villar Luján Iván Andrés Alexis
 * Nieto Cortés Andrés
 
-
-![unam](https://img.culturacolectiva.com/cdn-cgi/image/f=auto,w=auto,q=80,fit=contain/content_image/2019/1/31/1548962847303-escudo-unam.jpg)
+![unam](.assets/../assets/img/UNAM.jpg)
